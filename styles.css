@@ -1,0 +1,90 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #6C757D;
+    color: white;
+    align-items: center;
+    
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00C853;
+    padding: 10px 20px;
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('software img.jpg') no-repeat center center/cover;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #00C853;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .content {
+    padding: 30px;
+    text-align: center;
+    width: 1000px;
+    background: url('software img.jpg');
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;  
+  }
+
+  form input, form textarea, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+  
+  }
+  .btn a:hover{
+    color: #00C853;
+  }
+
+  ul li{
+    list-style-type: none; 
+    padding: 0;           
+    text-align: center;   
+    margin: 10px 0;       
+    font-size: 18px;       
+    color: #fff;   
+}
+
+
+   
